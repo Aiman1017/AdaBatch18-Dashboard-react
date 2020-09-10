@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AdaBatch18-Dashboard-react/static/css/main.5f361e03.chunk.css",
+    "main.js": "/AdaBatch18-Dashboard-react/static/js/main.d9cca8bc.chunk.js",
+    "main.js.map": "/AdaBatch18-Dashboard-react/static/js/main.d9cca8bc.chunk.js.map",
+    "runtime-main.js": "/AdaBatch18-Dashboard-react/static/js/runtime-main.fbecbc44.js",
+    "runtime-main.js.map": "/AdaBatch18-Dashboard-react/static/js/runtime-main.fbecbc44.js.map",
+    "static/js/2.02ac0663.chunk.js": "/AdaBatch18-Dashboard-react/static/js/2.02ac0663.chunk.js",
+    "static/js/2.02ac0663.chunk.js.map": "/AdaBatch18-Dashboard-react/static/js/2.02ac0663.chunk.js.map",
+    "index.html": "/AdaBatch18-Dashboard-react/index.html",
+    "precache-manifest.23f32c92f98cb8bf47b1cb4bd2da1ab7.js": "/AdaBatch18-Dashboard-react/precache-manifest.23f32c92f98cb8bf47b1cb4bd2da1ab7.js",
+    "service-worker.js": "/AdaBatch18-Dashboard-react/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/AdaBatch18-Dashboard-react/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.02ac0663.chunk.js.LICENSE.txt": "/AdaBatch18-Dashboard-react/static/js/2.02ac0663.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbecbc44.js",
+    "static/js/2.02ac0663.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.d9cca8bc.chunk.js"
+  ]
+}
