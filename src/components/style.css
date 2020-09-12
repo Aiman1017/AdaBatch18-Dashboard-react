@@ -1,0 +1,59 @@
+.form {
+    margin: 3rem 40rem 0;
+    width: 20%;
+    height: 10rem;
+    border: blue dashed 2px; 
+}
+
+.loginButton{
+    color: black;
+    border: black solid 1px;
+    display: flex;
+}
+
+.loginIcon{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70rem;
+    color: white;
+    text-decoration: none;
+}
+
+.addIcon{
+    display: flex;
+    flex-direction: column;
+    padding-left:3rem;
+    color: white;
+    text-decoration: none;
+}
+
+.box{
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.logo{
+    margin-left: 10rem;
+}
+
+.tableContent{
+    margin-left: 4rem;
+}
+
+.editButton{
+    text-decoration: none;
+    color: red;
+}
+
+.restaurantForm{
+    width: 40%;
+    border: solid black 1px;
+    margin-left: 25rem;
+    padding-left: 20rem;
+    padding-bottom: 3rem;
+}
+
+.formTitle{
+    margin-left: 40rem;
+}

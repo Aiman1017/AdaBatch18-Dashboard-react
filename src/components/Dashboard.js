@@ -3,41 +3,51 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper'
 import Typography from '@material-ui/core/Typography';
 import ListTable from './ListTable';
-import Header from './Header';
 import Box from './Box';
 
-function Dashboard(props){
-    const boxes = [
-        {'title': 'Revenue', 'subtitle': 'Rm 3000'},
-        {'title': 'Users', 'subtitle': 'Rm 2000'},
-        {'title': 'Restaurants', 'subtitle': '15'},
-        {'title': 'Riders', 'subtitle': '120'}
-      ]
+class Dashboard extends React.Component{
+  boxes = [
+    {'title': 'Revenue', 'subtitle': 'Rm 3000'},
+    {'title': 'Users', 'subtitle': 'Rm 2000'},
+    {'title': 'Restaurants', 'subtitle': '15'},
+    {'title': 'Riders', 'subtitle': '120'}
+  ]
 
-    const restaurants = [
-        {'name': "Uncle's Bob",  'orders': 90, 'revenues': 'Rm10000'},
-        {'name': 'McDonalds', 'orders': 100, 'revenues': 'Rm20000'},
-        {'name': 'Pizza Hut', 'orders': 100, 'revenues': 'Rm19500'},
-        {'name': 'Murni', 'orders': 80, 'revenues': 'Rm15000'}
-      ];
+  constructor(props){
+    super(props);
+    this.state = {restaurants: []}
+  }
 
-    return <div>
-    <Header/>
+  componentDidMount(){
+    const url = 'http://restaurant-api-module-2.herokuapp.com/api/restaurants'
+    const proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+    fetch(proxyUrl + url).then(response => response.json()).then(data => {
+      console.log(data)
+      this.setState({
+        restaurants:data["data"]
+      });
+    });
+  }
 
-    <Grid container spacing={3}>
-    {
-    boxes.map((val,index) => {
-      return <Box val={val}/>
-        })}
-    </Grid>
+  render(){
+    return (
+    <div>
+      <Grid container spacing={3}>
+      {
+      this.boxes.map((val, index) => {
+        return <Box key={index} val={val}/>
+          })}
+      </Grid>
 
-    <Paper>
-        <Typography component="h2" variant="h6" color="primary" gutterBottom>
-        Orders
-        </Typography>
-        <ListTable restaurants={restaurants}/>
-    </Paper>
+      <Paper>
+          <Typography component="h2" variant="h6" color="primary" gutterBottom align='center'>
+          List Of Restaurant
+          </Typography>
+          <ListTable restaurants={this.state.restaurants}/>
+      </Paper>
     </div>
+    );
+  }
 }
 
 export default Dashboard;
