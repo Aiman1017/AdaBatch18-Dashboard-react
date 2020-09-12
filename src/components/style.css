@@ -1,6 +1,6 @@
 .form {
     margin: 3rem 40rem 0;
-    width: 20%;
+    padding-left: 2rem;
     height: 10rem;
     border: blue dashed 2px; 
 }
