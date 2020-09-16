@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/AdaBatch18-Dashboard-react/static/css/main.5f361e03.chunk.css",
-    "main.js": "/AdaBatch18-Dashboard-react/static/js/main.d7cb4d90.chunk.js",
-    "main.js.map": "/AdaBatch18-Dashboard-react/static/js/main.d7cb4d90.chunk.js.map",
-    "runtime-main.js": "/AdaBatch18-Dashboard-react/static/js/runtime-main.fbecbc44.js",
-    "runtime-main.js.map": "/AdaBatch18-Dashboard-react/static/js/runtime-main.fbecbc44.js.map",
-    "static/js/2.e619beb3.chunk.js": "/AdaBatch18-Dashboard-react/static/js/2.e619beb3.chunk.js",
-    "static/js/2.e619beb3.chunk.js.map": "/AdaBatch18-Dashboard-react/static/js/2.e619beb3.chunk.js.map",
-    "index.html": "/AdaBatch18-Dashboard-react/index.html",
-    "precache-manifest.221d7246acaafe2f066b14424a70115b.js": "/AdaBatch18-Dashboard-react/precache-manifest.221d7246acaafe2f066b14424a70115b.js",
-    "service-worker.js": "/AdaBatch18-Dashboard-react/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/AdaBatch18-Dashboard-react/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.e619beb3.chunk.js.LICENSE.txt": "/AdaBatch18-Dashboard-react/static/js/2.e619beb3.chunk.js.LICENSE.txt"
+    "main.css": "/AdaBatch18-list-of-restaurant/static/css/main.6f33037c.chunk.css",
+    "main.js": "/AdaBatch18-list-of-restaurant/static/js/main.d1eed2a9.chunk.js",
+    "main.js.map": "/AdaBatch18-list-of-restaurant/static/js/main.d1eed2a9.chunk.js.map",
+    "runtime-main.js": "/AdaBatch18-list-of-restaurant/static/js/runtime-main.555466f3.js",
+    "runtime-main.js.map": "/AdaBatch18-list-of-restaurant/static/js/runtime-main.555466f3.js.map",
+    "static/js/2.32c7db3d.chunk.js": "/AdaBatch18-list-of-restaurant/static/js/2.32c7db3d.chunk.js",
+    "static/js/2.32c7db3d.chunk.js.map": "/AdaBatch18-list-of-restaurant/static/js/2.32c7db3d.chunk.js.map",
+    "index.html": "/AdaBatch18-list-of-restaurant/index.html",
+    "precache-manifest.6e223bbf69a1c270b132b3581bcf7d57.js": "/AdaBatch18-list-of-restaurant/precache-manifest.6e223bbf69a1c270b132b3581bcf7d57.js",
+    "service-worker.js": "/AdaBatch18-list-of-restaurant/service-worker.js",
+    "static/css/main.6f33037c.chunk.css.map": "/AdaBatch18-list-of-restaurant/static/css/main.6f33037c.chunk.css.map",
+    "static/js/2.32c7db3d.chunk.js.LICENSE.txt": "/AdaBatch18-list-of-restaurant/static/js/2.32c7db3d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.fbecbc44.js",
-    "static/js/2.e619beb3.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.d7cb4d90.chunk.js"
+    "static/js/runtime-main.555466f3.js",
+    "static/js/2.32c7db3d.chunk.js",
+    "static/css/main.6f33037c.chunk.css",
+    "static/js/main.d1eed2a9.chunk.js"
   ]
 }
